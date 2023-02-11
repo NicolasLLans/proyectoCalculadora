@@ -1,0 +1,8 @@
+.pantalla{
+      background-color: rgb(88, 139, 104);
+      margin: 1.5rem;
+      border-radius: 12px;
+      height: 4rem;
+      border: solid 2px #5b5b5b;
+      color: chartreuse;
+}
