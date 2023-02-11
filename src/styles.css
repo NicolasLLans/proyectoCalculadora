@@ -3,6 +3,8 @@ body{
       background-color: rgb(129, 110, 151) !important;
       padding: 5rem 7rem;
       height: 100vh;
+      display: grid;
+      place-items: center;
 }
 
 @media (max-width: 786px) {

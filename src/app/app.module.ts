@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CalculadoraComponent } from './componentes/calculadora/calculadora.component';
 import { PantallaComponent } from './componentes/pantalla/pantalla.component';
 import { TecladoComponent } from './componentes/teclado/teclado.component';
+import { BotonComponent } from './componentes/boton/boton.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalculadoraComponent,
     PantallaComponent,
-    TecladoComponent
+    TecladoComponent,
+    BotonComponent
   ],
   imports: [
     BrowserModule,

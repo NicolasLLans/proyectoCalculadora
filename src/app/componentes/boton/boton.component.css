@@ -1,0 +1,39 @@
+.boton{
+      background-color: blue;
+      height: 55px;
+      width: 55px;
+      color: beige;
+      font-size: 35px;
+      font-weight: bold;
+      font-family: 'Lato', sans-serif;
+      margin: 4px;
+
+      display: grid;
+      place-items: center;
+
+
+      border: 1px solid white;
+      border-radius: 12px;
+      cursor: pointer;
+      user-select: none;
+}
+.boton:hover{
+      background-color: aquamarine;
+      color: black;
+}
+.operador{
+      background-color: #5dcf89;
+      color: rgb(29, 29, 29);
+}
+.operador:hover{
+      background-color: #cfc45d;
+      color: rgb(85, 84, 84);
+}
+.clear{
+      background-color: #f7442c;
+      color: rgb(216, 216, 216);
+}
+.clear:hover{
+      background-color: #cfc45d;
+      color: rgb(85, 84, 84);
+}
