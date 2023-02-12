@@ -21,8 +21,9 @@ export class CalculadoraComponent implements OnInit {
     }
   }
 
+
   limpiarpantalla(){
-    this.expresion = ""
+    this.expresion = "0"
   }
 
   constructor() { }

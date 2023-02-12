@@ -1,5 +1,5 @@
 .boton{
-      background-color: blue;
+      background-color: #10898b;
       height: 55px;
       width: 55px;
       color: beige;
@@ -18,22 +18,22 @@
       user-select: none;
 }
 .boton:hover{
-      background-color: aquamarine;
-      color: black;
+      background-color: #17aeb1;
+      color: rgb(231, 231, 231);
 }
 .operador{
-      background-color: #5dcf89;
-      color: rgb(29, 29, 29);
+      background-color: #fd9407;
+      color: #e2d9c2;
 }
 .operador:hover{
-      background-color: #cfc45d;
-      color: rgb(85, 84, 84);
+      background-color: #fca12a;
+      color: #f3eddd;
 }
 .clear{
-      background-color: #f7442c;
-      color: rgb(216, 216, 216);
+      background-color: #cc063e;
+      color: #e2d9c2;
 }
 .clear:hover{
-      background-color: #cfc45d;
-      color: rgb(85, 84, 84);
+      background-color: #e83535;
+      color: #e2d9c2;
 }
