@@ -5,4 +5,12 @@
       border: solid 2px #5b5b5b;
       color: chartreuse;
       user-select: none;
+      font-size: 35px;
+      font-weight: bold;
+      font-family: 'Lato', sans-serif;
+      
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      padding: 5px;
 }

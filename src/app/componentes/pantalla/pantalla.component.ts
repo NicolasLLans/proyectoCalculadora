@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pantalla',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pantalla.component.css']
 })
 export class PantallaComponent implements OnInit {
+
+  @Input() entrada:string="";
+
+
 
   constructor() { }
 
