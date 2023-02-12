@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as math from 'mathjs';
+
 
 
 
@@ -14,7 +14,7 @@ export class CalculadoraComponent implements OnInit {
 
   agregarExpresion(valor:string){
     if(valor==="="){
-      this.expresion = math.evaluate(this.expresion);
+      this.expresion = eval(this.expresion);
     }else{
       if(this.expresion === "0"){
         this.expresion="";
@@ -28,9 +28,13 @@ export class CalculadoraComponent implements OnInit {
     this.expresion = "0"
   }
 
+  
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+
+
