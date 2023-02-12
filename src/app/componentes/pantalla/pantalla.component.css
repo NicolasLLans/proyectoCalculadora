@@ -10,8 +10,8 @@
       font-family: 'Lato', sans-serif;
       
       display: flex;
-      justify-content: end;
-      align-items: end;
+      justify-content: flex-end;
+      align-items: flex-end;
       padding: 5px;
       box-shadow: 2px 3px 25px rgba(114, 114, 114, 0.733);
 }
