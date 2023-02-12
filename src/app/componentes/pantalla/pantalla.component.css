@@ -8,10 +8,11 @@
       font-size: 35px;
       font-weight: bold;
       font-family: 'Lato', sans-serif;
+      overflow: auto;
       
       display: flex;
       justify-content: flex-end;
       align-items: flex-end;
-      padding: 5px;
+      padding: 15px;
       box-shadow: 2px 3px 25px rgba(114, 114, 114, 0.733);
 }
